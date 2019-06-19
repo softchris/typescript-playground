@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test:watch": "jest --watchAll",
+    "test": "jest",
     "build": "tsc",
     "start": "npm run build && node dist/app.js",
     "start:dev": "tsc --watch"
