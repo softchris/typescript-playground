@@ -6,6 +6,6 @@ describe('testing sub', () => {
   })
 
   it('sub 10 -10 = 0', () => {
-    expect(sub(10, 9)).toEqual(0);
+    expect(sub(10, 10)).toEqual(0);
   })
 })
