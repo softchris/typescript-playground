@@ -10,12 +10,20 @@
     "start": "npm run build && node dist/app.js",
     "start:dev": "tsc --watch"
   },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setup-jasmine-env.js",
+    "unmockedModulePathPatterns": [
+      "./node_modules/jasmine-reporters"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "jasmine-reporters": "^2.2.0",
     "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
   },

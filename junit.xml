@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="1.832">
+  <testsuite name="testing sub" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:49" time="1.477" tests="1">
+    <testcase classname="testing sub sub 1 -1 = 0" name="testing sub sub 1 -1 = 0" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:50" time="0.152" tests="1">
+    <testcase classname=" adds 1 + 2 to equal 3" name=" adds 1 + 2 to equal 3" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:50" time="0.141" tests="1">
+    <testcase classname=" return name from Player" name=" return name from Player" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
