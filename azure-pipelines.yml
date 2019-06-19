@@ -19,6 +19,12 @@ steps:
     npm run test
   displayName: 'run tests'
 
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'junit.xml'
+    failTaskOnFailedTests: true
+
 - task: PublishBuildArtifacts@1
   inputs:
     artifactName: dist
