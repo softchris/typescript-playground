@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" time="1.832">
-  <testsuite name="testing sub" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:49" time="1.477" tests="1">
-    <testcase classname="testing sub sub 1 -1 = 0" name="testing sub sub 1 -1 = 0" time="0.003">
+<testsuites name="jest tests" tests="4" failures="1" time="2.044">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:51:23" time="0.858" tests="1">
+    <testcase classname=" return name from Player" name=" return name from Player" time="0.004">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:50" time="0.152" tests="1">
-    <testcase classname=" adds 1 + 2 to equal 3" name=" adds 1 + 2 to equal 3" time="0.001">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:51:23" time="0.855" tests="1">
+    <testcase classname=" adds 1 + 2 to equal 3" name=" adds 1 + 2 to equal 3" time="0.004">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-06-19T23:41:50" time="0.141" tests="1">
-    <testcase classname=" return name from Player" name=" return name from Player" time="0.001">
+  <testsuite name="testing sub" errors="0" failures="1" skipped="0" timestamp="2019-06-19T23:51:23" time="1.606" tests="2">
+    <testcase classname="testing sub sub 1 -1 = 0" name="testing sub sub 1 -1 = 0" time="0.004">
+    </testcase>
+    <testcase classname="testing sub sub 10 -10 = 0" name="testing sub sub 10 -10 = 0" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: 1
+    at Object.it (/Users/chnoring/Documents/dev/projects/workshops/api-test/__tests__/sub.ts:9:24)
+    at Object.asyncJestTest (/Users/chnoring/Documents/dev/projects/workshops/api-test/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/chnoring/Documents/dev/projects/workshops/api-test/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/chnoring/Documents/dev/projects/workshops/api-test/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/chnoring/Documents/dev/projects/workshops/api-test/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   </testsuite>
 </testsuites>
